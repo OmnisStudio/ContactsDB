@@ -1,0 +1,9 @@
+;  Enter your initialization code here
+
+Calculate iRow as pRow
+
+Do iMainList.$define(iSubList,iMainText)
+Do iSubList.$define(iTextCol1,iTextCol2,iAccessoryType,iAccessoryContent,iAccessoryValueCol,iImagePath,iFormName)
+Do iSubList.$add('table_uscontacts100 Entry','Enterable Grid',kJSNativeListAccessoryTypeDisclosure,'',0,iconurl(12392),'jstable_uscontacts100Form')
+
+Do iMainList.$add(iSubList,'Forms')

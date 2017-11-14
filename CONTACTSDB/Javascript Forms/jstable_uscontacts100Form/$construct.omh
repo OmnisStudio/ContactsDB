@@ -1,0 +1,4 @@
+Do iSqlList.$definefromsqlclass('stable_uscontacts100','Col_first_name','Col_last_name','Col_company_name','Col_address','Col_city','Col_county','Col_state','Col_zip','Col_phone1','Col_phone2','Col_email','Col_web')
+Do iSqlList.$sessionobject.$assign($sessions.CONTACTSDBSESSION.$sessionobject) Returns #F
+
+Do method fetchData ('')

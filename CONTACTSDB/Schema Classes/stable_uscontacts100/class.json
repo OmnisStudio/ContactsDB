@@ -1,0 +1,20 @@
+{
+	"classtype": "kSchema",
+	"internalversion": 2,
+	"nextident": 32013,
+	"properties": {
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2017-11-10 14:54:52",
+		"createinstancewhensubtype": true,
+		"desc": "",
+		"editor": "",
+		"editordata": "",
+		"external": false,
+		"moddate": "2017-11-10 14:57:59",
+		"servertablename": "table_uscontacts100",
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	}
+}

@@ -1,0 +1,9 @@
+On evClick
+	Set reference lStatRef to iSqlList.$statementobject
+	
+	Do iSqlList.$dowork() Returns lFlag
+	If not(lFlag)
+		Do method showLastError (lStatRef)
+	End If
+	
+	Do $cwind.$redraw()

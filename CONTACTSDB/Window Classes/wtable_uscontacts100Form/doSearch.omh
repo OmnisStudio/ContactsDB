@@ -1,0 +1,5 @@
+Begin text block
+Text: {WHERE  Col_first_name LIKE '%[iSearchText]%' OR Col_last_name LIKE '%[iSearchText]%' OR Col_company_name LIKE '%[iSearchText]%' OR Col_address LIKE '%[iSearchText]%' OR Col_city LIKE '%[iSearchText]%' OR Col_county LIKE '%[iSearchText]%' OR Col_state LIKE '%[iSearchText]%' OR Col_zip LIKE '%[iSearchText]%' OR Col_phone1 LIKE '%[iSearchText]%' OR Col_phone2 LIKE '%[iSearchText]%' OR Col_email LIKE '%[iSearchText]%' OR Col_web LIKE '%[iSearchText]%'}
+End text block
+Get text block lWhereClause
+Do method fetchData (lWhereClause)
